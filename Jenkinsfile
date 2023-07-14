@@ -12,7 +12,7 @@ pipeline {
         stage('build'){
             steps{
                 sh 'chmod +x delpoy.sh'
-                sh './delpoy.sh'
+                sh './deploy.sh'
             }
         }
         stage('push'){
