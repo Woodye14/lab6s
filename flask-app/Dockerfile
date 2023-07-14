@@ -1,5 +1,5 @@
 # Use Python 3.7 as a base image
-FROM python 3.7
+FROM python:3.7
 # Copy contents into image
 COPY . .
 # install pip dependencies from requirements file
