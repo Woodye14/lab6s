@@ -21,7 +21,7 @@ pipeline {
                 sh "docker tag trio-task-mysql:5.7 woodye14/mytriotasksql1:latest"
                 sh "docker tag trio-task-flask-app woodye14/mytriotaskflask1:latest"
                 sh "docker push woodye14/mytriotasksql1:latest"
-                sh "docker push woodye14/mytriotasksql1:latest"
+                sh "docker push woodye14/mytriotaskflask1:latest"
             }
         }
     }
